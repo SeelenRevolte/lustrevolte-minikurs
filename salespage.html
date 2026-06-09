@@ -54,10 +54,23 @@
       align-items: center;
       justify-content: center;
     }
-    .site-header img {
-      max-height: 80px;
-      width: auto;
-      mix-blend-mode: screen;
+    .site-header-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: var(--cream);
+      letter-spacing: 0.04em;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .site-header-logo span {
+      display: block;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 400;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-top: 4px;
     }
 
     /* ── HERO ────────────────────────────────────── */
@@ -588,7 +601,10 @@
 
 <!-- HEADER -->
 <header class="site-header">
-  <img src="KB-SR__Logo_digi3.jpg" alt="SeelenRevolte – Katja Borasch" />
+  <div class="site-header-logo">
+    SeelenRevolte
+    <span>by Katja Borasch</span>
+  </div>
 </header>
 
 <!-- HERO -->
